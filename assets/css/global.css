@@ -1,12 +1,23 @@
 @charset "utf-8";
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     font-weight: 700;
 }
 
@@ -67,3 +78,18 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* mouse turn gray */
+a:hover {
+    color: rgba(35, 7, 245, 0.837);
+    text-decoration: underline;
+    /* hover underline */
+}
+
+/* open in new page*/
+a[target="_blank"] {
+    cursor: pointer;
+}
