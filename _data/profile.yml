@@ -52,13 +52,13 @@ education:
 
 skills:
 - name: Programming
-  logo: /assets/images/badges/skills/programming.svg
+  # logo: /assets/images/badges/skills/programming.svg
   position: C, Python, Java, JavaScript, HTML/CSS
 - name: Tools
-  logo: /assets/images/badges/skills/design.svg
+  # logo: /assets/images/badges/skills/design.svg
   position: LATEX, Git, Linux
 - name: Language
-  logo: /assets/images/badges/skills/research.svg
+  # logo: /assets/images/badges/skills/research.svg
   position: Mandarin (Native), English (Proficient), Cantonese (Elementary), French (Elementary)
 
 # experience:
