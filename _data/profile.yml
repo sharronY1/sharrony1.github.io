@@ -1,6 +1,6 @@
 primary_name: "YAN Jiayi"
 secondary_name: "(Sharron)"
-navbar_name: "YAN Jiayi's homepage3"
+navbar_name: "YAN Jiayi's homepage"
 
 # positions:
 # - logo: /assets/images/badges/cuhk_logo.png  # Logo is optional
@@ -37,7 +37,6 @@ short_bio: >-
 portrait_url: /assets/images/photos/portrait_sharron.jpg
 portrait_caption: >-
   
-
 education:
 - name: The Chinese University of Hong Kong (CUHK)
   logo: /assets/images/badges/cuhk_logo.png
@@ -52,9 +51,15 @@ education:
   date: Feb. 2026 - May. 2026 (Expected)
 
 skills:
-  - programming: C, Python, Java, JavaScript, HTML/CSS
-  - tool:  LATEX, Git, Linux
-  - language: Mandarin (Native), English (Proficient), Cantonese (Elementary), French (Elementary)
+- name: Programming
+  logo: /assets/images/badges/skills/programming.svg
+  position: C, Python, Java, JavaScript, HTML/CSS
+- name: Tools
+  logo: /assets/images/badges/skills/design.svg
+  position: LATEX, Git, Linux
+- name: Language
+  logo: /assets/images/badges/skills/research.svg
+  position: Mandarin (Native), English (Proficient), Cantonese (Elementary), French (Elementary)
 
 # experience:
 # - name: Peking University
