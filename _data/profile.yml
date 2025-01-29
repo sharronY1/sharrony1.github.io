@@ -42,12 +42,13 @@ education:
   logo: /assets/images/badges/cuhk_logo.png
   position: >- 
     <a href="https://www.cse.cuhk.edu.hk/"> Department of Computer Science and Engineering </a> <br/>
-    <i>  B.Sc. in Computer Science  </i>
+    <i>  B.Sc. in Computer Science  &nbsp <strong> CGPA: 3.8+/4.0 </strong> </i>
   date: Sep. 2022 - Jun. 2026 (Expected)
 
-- name: École Polytechnique Fédérale de Lausanne(EPFL)
+- name: École Polytechnique Fédérale de Lausanne (EPFL)
   logo: /assets/images/badges/epfl_logo.png
-  position: Spring Semester Exchange, <a href="https://www.epfl.ch/schools/ic/"> School of Computer and Communication Sciences </a> <br/>
+  position: <a href="https://www.epfl.ch/schools/ic/"> School of Computer and Communication Sciences </a> <br/>
+            <i> Spring Semester Exchange </i>
   date: Feb. 2026 - May. 2026 (Expected)
 
 skills:
