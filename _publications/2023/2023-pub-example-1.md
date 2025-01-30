@@ -5,13 +5,12 @@ selected:       false
 pub:            "Nature Communications"
 pub_date:       "2023"
 abstract: >-
-  Cover image is a photo by Thomas Renaud on Unsplash. The abstract of the publication is meant to be a TLDR (very brief summary with 1~2 sentences) of your paper.
+◦ Data collection: Collected, organized, and managed comprehensive background data on Hong Kong secondary schools and students.
+◦ Model Implementation: Assisted in implement different classification algorithms for predicting students'learning levels.
+◦ Model Tuning:Assisted in tuning parameters and organizing training data to enhance model performance.
 cover:          /assets/images/covers/cover1.jpg
-authors:
-- Your Name*
-- Robert White*
-- John Doe
-- Charles Green (Stanford)
+authors: 
+- Advisor: Dr. Dongkun Han
 links:
   Paper: https://www.cell.com
 ---
