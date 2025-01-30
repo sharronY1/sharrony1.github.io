@@ -51,16 +51,16 @@ education:
             <i> Spring Semester Exchange </i>
   date: Feb. 2026 - May. 2026 (Expected)
 
-skills:
+skill:
 - name: Programming
   logo: /assets/images/badges/program.png
-  position: C, Python, Java, JavaScript, HTML/CSS
+  enum: C, Python, Java, JavaScript, HTML/CSS
 - name: Tools
   logo: /assets/images/badges/tool.png
-  position: LATEX, Git, Linux
+  enum: LATEX, Git, Linux
 - name: Language
   logo: /assets/images/badges/language.png
-  position: Mandarin (Native), English (Proficient), Cantonese (Elementary), French (Elementary)
+  enum: Mandarin (Native), English (Proficient), Cantonese (Elementary), French (Elementary)
 
 # experience:
 # - name: Peking University
@@ -68,14 +68,14 @@ skills:
 #   position: Research Intern ?
 #   date: Sep. 2019 - Jul. 2021
 
-awards:
-- name: "United College Academic Scholarship: Ko Ho Ning Scholarship (HK$20,000)"
+award:
+- name: "United College Academic Scholarship: Ko Ho Ning Scholarship <strong>(HK$20,000)</strong>"
   date: Oct. 2024  
 
 - name: Dean's List of Faculty of Engineering <strong> (Top 10%) </strong>
   date: Jul. 2024  
 
-- name: "United College Academic Scholarship: Ko Ho Ning Scholarship (HK$20,000)"
+- name: "United College Academic Scholarship: Ko Ho Ning Scholarship <strong>(HK$20,000)</strong>"
   date: Oct. 2023  
 
 - name: Dean's List of Faculty of Engineering <strong> (Top 10%) </strong>

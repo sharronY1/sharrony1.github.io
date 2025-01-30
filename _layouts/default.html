@@ -5,18 +5,29 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href=" /favicon.ico" />
     <title>{{ page.title }} - {{ site.data.profile.navbar_name }}</title>
+
+    </link>
     <style>
         dateTag {
             font: italic 15px 'Times New Roman';
         }
 
-        .titleSize {
+        .title-size {
             font-size: 20px;
         }
 
-        .textSize {
+        .text-size {
             font-size: 15px;
+        }
+
+        .my-custom-background {
+            background-color: rgb(174, 200, 243);
+        }
+
+        .navbar-color {
+            background-color: blanchedalmond;
         }
     </style>
     <!-- Stylesheets -->
@@ -39,7 +50,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
 </head>
 
-<body class="bg-light" {{ page.body_attr }}>
+<body class="my-custom-background" {{ page.body_attr }}>
     {% include navbar.html %}
     <div class="container">
         {{content}}

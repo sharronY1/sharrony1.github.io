@@ -5,25 +5,21 @@
 
                 <div class="row">
                     <div class="col-12">
-                        {% if site.data.profile.education %}
+                        {% if site.data.profile.skill %}
                         <div class="row">
                             <div class="col-12 mx-2 my-1">
-                                <h3>Education</h3>
+                                <h3>Skills</h3>
                                 <ul class="list-unstyled mb-1">
-                                    {% for item in site.data.profile.education %}
+                                    {% for item in site.data.profile.skill %}
                                     <li class="media mb-1">
                                         <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}"
                                             style="width: 20px;" class="mr-1 mt-1">
                                         <div class="media-body">
                                             <div class="d-flex justify-content-between">
                                                 <div class="title-size">{{ item.name }}</div>
-                                                <div>
-                                                    <dateTag>{{ item.date }} </dateTag>
-                                                </div>
                                             </div>
-                                            <div class="title-size">{{ item.dept }}</div>
                                             <div class="small d-flex">
-                                                <div class="text-size">{{ item.position }}</div>
+                                                <div class="text-size">{{ item.enum }}</div>
                                             </div>
                                         </div>
                                     </li>
