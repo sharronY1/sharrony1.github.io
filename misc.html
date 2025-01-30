@@ -1,32 +1,260 @@
----
-layout: default
-title : Showcase
-navbar_title: Showcase
----
+<!DOCTYPE html>
+<html lang="en">
+<!-- Template: https://github.com/luost26/academic-homepage -->
 
-{% assign cards_by_group = site.showcase | sort: "date" | reverse | where: "show", true | group_by_exp: "item",
-"item.group" %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>YAN Jiayi's homepage - Misc.</title>
+    <style>
+        dateTag {
+            font: italic 15px 'Times New Roman';
+            float: right;
+        }
 
-{% for group in cards_by_group %}
-<h5>{{ group.name }}</h5>
-<div class="row grid mb-4">
-    <div class="grid-sizer col-1"></div>
-    {% for item in group.items %}
-    {% if item.width >= 4 -%}
-    {%- assign width_sm = 12 -%}
-    {%- assign width_xs = 12 -%}
-    {%- elsif item.width >= 2 -%}
-    {%- assign width_sm = 6 -%}
-    {%- assign width_xs = 6 -%}
-    {%- else -%}
-    {%- assign width_sm = item.width | times: 2 | at_most: 12 -%}
-    {%- assign width_xs = item.width | times: 2 | at_most: 12 -%}
-    {%- endif -%}
-    <div class="p-2 grid-item col-md-{{ item.width | at_most: 12 }} col-sm-{{ width_sm }} col-{{ width_xs }}">
-        <div class="{% if item.class != null %}{{ item.class }}{% else %}card border-0 shadow-sm bg-white{% endif %}">
-            {{ item.content }}
+        .title-size {
+            font-size: 20px;
+        }
+
+        .text-size {
+            font-size: 15px;
+        }
+
+        .my-custom-background {
+            background-color: rgb(174, 200, 243);
+        }
+
+        .nevbar-color {
+            background-color: blanchedalmond;
+        }
+
+        .card_size {
+            width: 500px;
+            /* 设置卡片的宽度 */
+            height: 200px;
+            /* 设置卡片的高度 */
+        }
+
+        li {
+            font-size: 17px;
+        }
+    </style>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+        integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css"
+        integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+        integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+    <link rel="stylesheet" href="/academic-homepage/assets/css/global.css">
+</head>
+
+<body class="my-custom-background">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mb-5 shadow-sm">
+        <div class="container">
+            <a class="navbar-brand"><strong>YAN Jiayi's homepage</strong></a>
+            <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-map"></i> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/academic-homepage/">Home</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/academic-homepage/research">Research</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/academic-homepage/misc">Misc.</a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
+    </nav>
+    <div class="container">
+
+
+
+        <h1>Misc.</h1>
+
+        <div class="row grid mb-4">
+            <div class="grid-sizer col-1"></div>
+            <!-- Societies and Organisations Section -->
+            <div class="p-2 grid-item col-12">
+                <h2>Societies and Organisations</h2>
+                <ul>
+                    <li>United College Mainland Student Association, CUHK: <strong>Student Council Officer - Activities
+                            Director</strong>
+                        <dateTag>Jan. 2023 - Mar. 2024</dateTag>
+                    </li>
+                    <li>United College Mainland Student Association, CUHK: <strong>Writing Officer</strong>
+                        <dateTag>Sep. 2022 - Jan. 2024</dateTag>
+                    </li>
+                    <li>Mainland Undergraduate Orientation, CUHK: <strong>Student Orientation Counselor</strong>
+                        <dateTag>Jul 2023 - Sep 2023</dateTag>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Third Section with Misc and Photo Collection in the same row -->
+        <div class="row grid mb-4">
+            <div class="grid-sizer col-1"></div>
+
+            <!-- Misc (on the left) -->
+            <div class="grid-sizer col-1"></div>
+
+            <div class="p-2 grid-item col-md-6 col-12">
+                <div class="card border-0 shadow-sm bg-white card_size">
+                    <div>
+                        <img data-src="/academic-homepage/assets/images/covers/cover1.jpg"
+                            class="lazy w-100 rounded-sm card_size"
+                            src="/academic-homepage/assets/images/empty_300x200.png" />
+
+                        <div class="card-img-overlay" style="background: rgb(255,255,255,0.8)">
+                            <h3 class="card-title">Facts about me</h3>
+                            <p class="card-text">
+                            <ul>
+                                <li>I love travelling, playing ukulele and reading novels.</li>
+                                <li>I'm a big fan of <strong>Harry Potter Series</strong> and <a
+                                        href="https://en.wikipedia.org/wiki/Lana_Del_Rey">Lana Del Rey</a>! </li>
+                                <li>I have raised a cat for 11 years.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Photo Collection (on the right) -->
+            <div class="p-2 grid-item col-md-6 col-12">
+                <div id="showcase-default-photo-collection" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#showcase-default-photo-collection" data-slide-to="0" class="active"></li>
+                        <li data-target="#showcase-default-photo-collection" data-slide-to="1"></li>
+                        <li data-target="#showcase-default-photo-collection" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" style="height: 295px;">
+                        <!-- Carousel items here -->
+                        <div class="carousel-item active">
+                            <img src="/academic-homepage/assets/images/collection/island.jpg"
+                                class="d-block w-100 rounded-sm" style="height: 295px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Cheung Chau</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="lazy always-load d-block rounded-sm">
+                                <img src="/academic-homepage/assets/images/collection/cat1.jpg"
+                                    class="d-block w-100 rounded-sm" style="height: 295px;">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lazy always-load d-block rounded-sm">
+                                <img src="/academic-homepage/assets/images/collection/sun_rise.jpg"
+                                    class="d-block w-100 rounded-sm" style="height: 295px;">
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lazy always-load d-block rounded-sm">
+                                <img src="/academic-homepage/assets/images/collection/cat2.jpg"
+                                    class="d-block w-100 rounded-sm" style="height: 295px;">
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-control-prev" type="button" data-target="#showcase-default-photo-collection"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </div>
+                    <div class="carousel-control-next" type="button" data-target="#showcase-default-photo-collection"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-    {% endfor %}
-</div>
-{% endfor %}
+    <footer class="footer">
+        <div class="container navbar-color">
+            <div class="row my-3">
+                <div class="col-6">
+                    <div class="text-muted">
+                        <i>Last updated: Jan 2025</i>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="text-right text-muted">
+                        <a href="https://github.com/luost26/academic-homepage" target="_blank"><i
+                                class="fas fa-pencil-ruler"></i> academic-homepage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/github-buttons/2.14.2/buttons.min.js"
+        integrity="sha512-OYwZx04hKFeFNYrWxIyo3atgGpb+cxU0ENWBZs72X7T9U+NoHPM1ftUn/Mfw7dRDXrqWA6M1wBg6z6fGE32aeA=="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+        integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg"
+        crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+        integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk"
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: '$$', right: '$$', display: true },
+                    { left: '$', right: '$', display: false }
+                ],
+                throwOnError: false
+            });
+        });
+    </script>
+    <script src="/academic-homepage/assets/js/common.js"></script>
+    <script src="/academic-homepage/assets/js/bubble_visual_hash.js"></script>
+</body>
+
+</html>
