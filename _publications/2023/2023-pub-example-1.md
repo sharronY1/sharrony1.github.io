@@ -1,5 +1,5 @@
 ---
-title:          "An AI-enhanced Adaptive and Individualized eLearning System for Mathematics Foundation Courses in the Faculty of Engineering"
+title:          "An AI-enhanced Adaptive and Individualized eLearning System for Mathematics Foundation Courses in the Faculty of Engineering"
 date:           Jun. 2023 - Sep. 2023
 selected:       false
 pub:            "Nature Communications"
