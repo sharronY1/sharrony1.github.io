@@ -1,6 +1,6 @@
 ---
 title:          "An AI-enhanced Adaptive and Individualized eLearning System for Mathematics Foundation Courses in the Faculty of Engineering"
-date:           2023-01-1 00:01:00 +0800
+date:           Jun. 2023 – Sep. 2023
 selected:       false
 pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2023"
@@ -10,6 +10,7 @@ abstract: >-
 cover:          /assets/images/covers/cover2.jpg
 authors: 
   - Dr. Dongkun Han
+supervisor_website: https://dongkunhan.com/
 links:
   Paper: https://www.biorxiv.org
   Code: https://github.com
