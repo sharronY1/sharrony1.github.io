@@ -4,8 +4,11 @@ date_range: Jun. 2023 – Sep. 2023
 selected:       false
 pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2023"
-abstract: >-
-  Data collection: Collected, organized, and managed comprehensive background data on Hong Kong secondary schools and students. Model Implementation: Assisted in implement different classification algorithms for predicting students’ learning levels. Model Tuning: Assisted in tuning parameters and organizing training data to enhance model performance.
+abstract: |
+  Data collection: Collected, organized, and managed comprehensive background data on Hong Kong secondary schools and students.  
+  Model Implementation: Assisted in implementing different classification algorithms for predicting students’ learning levels.  
+  Model Tuning: Assisted in tuning parameters and organizing training data to enhance model performance.
+
 
 cover:          /assets/images/covers/cover2.jpg
 authors: 
