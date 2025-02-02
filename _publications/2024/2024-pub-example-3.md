@@ -1,22 +1,27 @@
 ---
-title:          "Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac"
-date:           2024-05-12 00:01:00 +0800
-selected:       true
-pub:            "International Conference on Machine Learning (ICML)"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+title:          "ComboBench: Can LLMs Manipulate Physical Devices to Play VR Games?"
+date_range: Apr. 2024 – Aug. 2024
+selected:       false
+pub:            false
+position:      "Summer Research Internship"
 pub_date:       "2024"
+abstract: |
+Benchmark Implementation: Curated and structured 270 VR game tasks from four top-rated VR games,
+establishing the first benchmark for evaluating LLMs performance in immersive VR environments.
+Experiment: Benchmarked 7 cutting-edge LLMs on VR tasks, assessing their effectiveness in completing
+complex game objectives.
+Data Analysis: Conducted in-depth data analysis, assisting to the development of 3 scoring systems for
+robust LLMs performance evaluation in VR settings.
+Survey: Designed and distributed questionnaires using Qualtrics to gather human evaluations of VR tasks,
+comparing them to AI model results.
 
-abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
-cover:          /assets/images/covers/cover3.jpg
-authors:
-  - Your Name
-  - James Wang
-  - Some Other Name
-  - John Doe
+
+cover:          /assets/images/covers/cover2.jpg
+authors: 
+  - Prof. Michael R. Lyu 
+supervisor_website: https://www.cse.cuhk.edu.hk/lyu/
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Paper: https://www.biorxiv.org
+  Code: https://github.com
+  Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
