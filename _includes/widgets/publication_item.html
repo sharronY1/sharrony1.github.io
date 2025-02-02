@@ -10,7 +10,16 @@
         </div>
         <div class="col-md-8 col-xl-9 p-3 pl-md-0">
             <h3 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h3>
-            <p class="mt-0 mb-0 small"> Supervisior: {% include widgets/author_list.html authors=item.authors %}</p>
+            <p class="mt-0 mb-0 small">
+              Supervisor: 
+              {% if item.supervisor_website %}
+                <a href="{{ item.supervisor_website }}" target="_blank">
+                  {% include widgets/author_list.html authors=item.authors %}
+                </a>
+              {% else %}
+                {% include widgets/author_list.html authors=item.authors %}
+              {% endif %}
+            </p>
             <p class="mt-0 mb-0 small"> {{ item.pub_date }} </p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
             
