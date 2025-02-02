@@ -1,6 +1,6 @@
 ---
 title:          "An AI-enhanced Adaptive and Individualized eLearning System for Mathematics Foundation Courses in the Faculty of Engineering"
-date:           Apr 2023 – Aug 2023
+date:           2023-01-1 00:01:00 +0800
 selected:       false
 pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2023"
