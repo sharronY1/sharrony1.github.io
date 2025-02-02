@@ -4,6 +4,7 @@ date_range: Jun. 2023 – Sep. 2023
 selected:       false
 pub:            false
 position:      "student helper"
+date:           2023-01-21 00:01:00 +0800
 pub_date:       "2023"
 abstract: |
   Data collection: Collected, organized, and managed comprehensive background data on Hong Kong secondary schools and students.  
