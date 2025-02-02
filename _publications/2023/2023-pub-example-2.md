@@ -2,7 +2,8 @@
 title:          "An AI-enhanced Adaptive and Individualized eLearning System for Mathematics Foundation Courses in the Faculty of Engineering"
 date_range: Jun. 2023 – Sep. 2023
 selected:       false
-pub:            "International Conference on Learning Representations (ICLR)"
+pub:            false
+position:      "student helper"
 pub_date:       "2023"
 abstract: |
   Data collection: Collected, organized, and managed comprehensive background data on Hong Kong secondary schools and students.  
