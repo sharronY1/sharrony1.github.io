@@ -7,10 +7,11 @@ position:      "Summer Research Internship"
 pub_date:       "2024"
 date:           2024-04-01 00:01:00 +0800
 abstract: |
-  Benchmark Implementation: Curated and structured 270 VR game tasks from four top-rated VR games, establishing the first benchmark for evaluating LLMs performance in immersive VR environments.
-Experiment: Benchmarked 7 cutting-edge LLMs on VR tasks, assessing their effectiveness in completing complex game objectives.
-Data Analysis: Conducted in-depth data analysis, assisting to the development of 3 scoring systems for robust LLMs performance evaluation in VR settings.
-Survey: Designed and distributed questionnaires using Qualtrics to gather human evaluations of VR tasks, comparing them to AI model results.
+  - **Benchmark Implementation**: Curated and structured 270 VR game tasks from four top-rated VR games, establishing the first benchmark for evaluating LLMs performance in immersive VR environments.
+  - **Experiment**: Benchmarked 7 cutting-edge LLMs on VR tasks, assessing their effectiveness in completing complex game objectives.
+  - **Data Analysis**: Conducted in-depth data analysis, assisting in the development of 3 scoring systems for robust LLMs performance evaluation in VR settings.
+  - **Survey**: Designed and distributed questionnaires using Qualtrics to gather human evaluations of VR tasks, comparing them to AI model results.
+
 
   
 
