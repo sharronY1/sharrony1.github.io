@@ -7,9 +7,10 @@ position:      "student helper"
 date:           2023-01-21 00:01:00 +0800
 pub_date:       "2023"
 abstract: |
-  Data collection: Collected, organized, and managed comprehensive background data on Hong Kong secondary schools and students.  
-  Model Implementation: Assisted in implementing different classification algorithms for predicting students’ learning levels.  
-  Model Tuning: Assisted in tuning parameters and organizing training data to enhance model performance.
+  - **Data Collection**: Collected, organized, and managed comprehensive background data on Hong Kong secondary schools and students.
+  - **Model Implementation**: Assisted in implementing different classification algorithms for predicting students’ learning levels.
+  - **Model Tuning**: Assisted in tuning parameters and organizing training data to enhance model performance.
+
 
 
 cover:          /assets/images/covers/cover2.jpg
