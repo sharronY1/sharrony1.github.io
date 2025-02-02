@@ -15,7 +15,7 @@
               {% if item.supervisor_website %}
                 <a href="{{ item.supervisor_website }}" target="_blank">
                   {% include widgets/author_list.html authors=item.authors %}
-                </a>    class="mt-0 mb-0 small"> <dataTag>{{ item.date_range }} </dataTag>
+                </a>    &nbsp &nbsp <dataTag>{{ item.date_range }} </dataTag>
               {% else %}
                 {% include widgets/author_list.html authors=item.authors %}
               {% endif %}
