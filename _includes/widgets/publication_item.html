@@ -10,17 +10,14 @@
 <!--         </div> -->
         <div class="abstract mt-3 mb-4 mx-5 p-2">
             <h3 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h3>
-            <p class="mt-0 mb-0" style="font-size: 20px;">
+            <p class="mt-0 mb-0" style="font-size: 18px;">
               Supervisor: 
-              {% if item.supervisor_website %}
                 <a href="{{ item.supervisor_website }}" target="_blank">
                   {% include widgets/author_list.html authors=item.authors %}
-                </a>    &nbsp &nbsp <dataTag>{{ item.date_range }} </dataTag>
-              {% else %}
-                {% include widgets/author_list.html authors=item.authors %}
-              {% endif %}
+                </a>    &nbsp &nbsp <dataTag>{{ item.date_range }} </dataTag> </br>
+                Position: {{item.position}}
             </p>
-            
+    
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
             
 <!--             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
