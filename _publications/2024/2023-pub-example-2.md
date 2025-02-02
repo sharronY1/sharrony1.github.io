@@ -8,7 +8,7 @@ pub_date:       "2024"
 date:           2024-09-01 00:01:00 +0800
 abstract: |
   Designing an AI Agent for automated VR game testing and assisting in developing the task execution framework.
-Learning and implementing Retrieval-Augmented Generation (RAG) and Model-Based Testing frameworks for the Agent.
+  Learning and implementing Retrieval-Augmented Generation (RAG) and Model-Based Testing frameworks for the Agent.
 cover:          /assets/images/covers/cover2.jpg
 authors: 
   - Shuqing Li
