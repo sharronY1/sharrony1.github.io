@@ -60,7 +60,7 @@ skill:
   enum: LATEX, Git, Linux
 - name: Language
   logo: /assets/images/badges/language.png
-  enum: Mandarin (Native), English (Proficient), Cantonese (Elementary), French (Elementary)
+  enum: Mandarin (Native), English (IELTS 7.5/9), Cantonese (Elementary), French (Elementary)
 
 # experience:
 # - name: Peking University
