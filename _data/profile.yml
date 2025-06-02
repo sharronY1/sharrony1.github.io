@@ -28,7 +28,7 @@ short_bio: >-
   </div>
   <p>
     I am <strong> YAN Jiayi </strong>, a junior student from <strong> <a class="hyperlink" href="https://www.cuhk.edu.hk/chinese/index.html" > The Chinese University of Hong Kong (CUHK) </a> </strong>, majoring in computer science. 
-    I am about to participate in a one-semester exchange program at <strong> <a href="https://www.epfl.ch/en/">École Polytechnique Fédérale de Lausanne (EPFL)  </a> </strong>.
+    I participated in a one-semester exchange program at <strong> <a href="https://www.epfl.ch/en/">École Polytechnique Fédérale de Lausanne (EPFL)  </a> </strong>.
   </p>
   <p>
     My research primarily focuses on <strong> embodied AI agents and multimodal AI applications in VR software testing</strong>. I don't want to rush into deciding my field of specialization before exploring more areas. Right now, I am still exploring different fields and expanding my knowledge.
@@ -54,7 +54,7 @@ education:
 skill:
 - name: Programming
   logo: /assets/images/badges/program.png
-  enum: C, Python, Java, JavaScript, HTML/CSS
+  enum: C, Python, Java, JavaScript, HTML/CSS, SQL
 - name: Tools
   logo: /assets/images/badges/tool.png
   enum: LATEX, Git, Linux
