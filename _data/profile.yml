@@ -27,11 +27,11 @@ short_bio: >-
   </p>
   </div>
   <p>
-    I am <strong> YAN Jiayi </strong>, a junior student from <strong> <a class="hyperlink" href="https://www.cuhk.edu.hk/chinese/index.html" > The Chinese University of Hong Kong (CUHK) </a> </strong>, majoring in computer science. 
-    I participated in a one-semester exchange program at <strong> <a href="https://www.epfl.ch/en/">École Polytechnique Fédérale de Lausanne (EPFL)  </a> </strong>.
+    I am <strong> YAN Jiayi </strong>, a final year student from <strong> <a class="hyperlink" href="https://www.cuhk.edu.hk/chinese/index.html" > The Chinese University of Hong Kong (CUHK) </a> </strong>, majoring in computer science. 
+    I enjoyed a wonderful semester in exchange program at <strong> <a href="https://www.epfl.ch/en/">École Polytechnique Fédérale de Lausanne (EPFL)  </a> </strong>.
   </p>
   <p>
-    My research primarily focuses on <strong> embodied AI agents and multimodal AI applications in VR software testing</strong>. I don't want to rush into deciding my field of specialization before exploring more areas. Right now, I am still exploring different fields and expanding my knowledge.
+    My research primarily focuses on <strong> embodied AI agents and multimodal AI applications in VR software testing</strong>.
   </p>
 
 portrait_url: /assets/images/photos/portrait_barcelona.jpg
@@ -42,8 +42,8 @@ education:
   logo: /assets/images/badges/cuhk_logo.png
   position: >- 
     <a href="https://www.cse.cuhk.edu.hk/"> Department of Computer Science and Engineering </a> <br/>
-    <i>  B.Sc. in Computer Science  &nbsp <strong> CGPA: 3.8+/4.0 </strong> </i>
-  date: Sep. 2022 - Jun. 2026 (Expected)
+    <i>  B.Sc. in Computer Science  &nbsp <strong> GPA: 3.8+/4.0 </strong> </i>
+  date: Sep. 2022 - Jun. 2026
 
 - name: École Polytechnique Fédérale de Lausanne (EPFL)
   logo: /assets/images/badges/epfl_logo.png
@@ -57,7 +57,7 @@ skill:
   enum: C, Python, Java, JavaScript, HTML/CSS, SQL
 - name: Tools
   logo: /assets/images/badges/tool.png
-  enum: LATEX, Git, Linux
+  enum: $\LaTeX$, Git, Linux, Docker, Conda
 - name: Language
   logo: /assets/images/badges/language.png
   enum: Mandarin (Native), English (IELTS 7.5/9), Cantonese (Elementary), French (Elementary)
@@ -69,6 +69,9 @@ skill:
 #   date: Sep. 2019 - Jul. 2021
 
 award:
+- name: "United College Academic Scholarship: Chiu On and Li Chou Kook Memorial Scholarship <strong>(HK$5,000)</strong>"
+  date: Oct. 2025  
+
 - name: "United College Academic Scholarship: Ko Ho Ning Scholarship <strong>(HK$20,000)</strong>"
   date: Oct. 2024  
 
