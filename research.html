@@ -9,7 +9,7 @@ body_attr: >-
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
 <div class="row">
-    <div class="col-12 col-lg-10">
+    <div class="col-12">
         {% for year in pubs_by_year %}
         {% assign num_papers = year.items | size %}
         <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
@@ -21,12 +21,58 @@ body_attr: >-
         {% endfor %}
     </div>
 
-    <div class="col-2 d-none d-lg-block">
-        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+    <div class="d-none d-lg-block position-fixed" style="right: 15px; top: 100px; max-height: calc(100vh - 120px); overflow-y: auto; width: 50px;">
+        <div id="navbar-year" class="nav nav-pills flex-column">
             {% for year in pubs_by_year %}
-            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
+            <a class="nav-link d-block text-center px-2" href="#year-{{ year.name }}" data-year="{{ year.name }}" style="font-size: 0.9rem;">{{ year.name }}</a>
             {% endfor %}
         </div>
     </div>
 
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Smooth scroll for year navigation
+    const yearLinks = document.querySelectorAll('#navbar-year .nav-link');
+    yearLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                const offsetTop = targetElement.offsetTop - 100;
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Update active state on scroll
+    function updateActiveYear() {
+        const scrollPos = window.scrollY + 150;
+        let activeYear = null;
+        
+        // Find all year headings
+        const yearHeadings = document.querySelectorAll('h2[id^="year-"]');
+        yearHeadings.forEach(heading => {
+            if (heading.offsetTop <= scrollPos) {
+                activeYear = heading.id.replace('year-', '');
+            }
+        });
+        
+        yearLinks.forEach(link => {
+            if (link.getAttribute('data-year') === activeYear) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', updateActiveYear);
+    updateActiveYear(); // Initial call
+});
+</script>

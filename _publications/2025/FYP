@@ -1,0 +1,29 @@
+---
+title:          "Tackling Multi-user Alignment Defects in XR Software Using Multi-Agent System"
+date_range: Jun. 2025 - present
+selected:       false
+pub:            false
+position:      "Bachelor's Thesis "
+pub_date:       "2025"
+date:           2025-06-01 00:01:00 +0800
+abstract: |
+  <ul>
+    <li><strong>Multi-Agent System Development:</strong> Developed a multi-agent system with the PocketFlow framework, integrating RAG and message queues for XR software testing automation.</li>
+    <li><strong>Inter-Agent Collaboration:</strong> Designed and implemented inter-agent collaboration workflows for efficient task coordination.</li>
+    <li><strong>Unity Package Development:</strong> Created a configurable Unity package for automated multi-view data capture and camera parameter extraction in avatar-centered scenes.</li>
+  </ul>
+
+
+
+  
+
+
+cover:          /assets/images/covers/cover2.jpg
+authors: 
+  - Prof. Michael R. Lyu 
+supervisor_website: https://www.cse.cuhk.edu.hk/lyu/
+links:
+  Paper: https://www.biorxiv.org
+  Code: https://github.com
+  Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+---
