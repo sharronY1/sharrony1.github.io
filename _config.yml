@@ -31,14 +31,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - "*.ico"
-  - "*.jpg"
-  - "*.jpeg"
-  - "*.png"
-  - "*.gif"
-  - "*.svg"
-  - "*.pdf"
-  - "*.zip"
+  - "_layouts/bitbug_favicon.ico"
+  - "_layouts/logo.jpg"
   - "*Zone.Identifier"
 
 # timezone: Asia/Shanghai
