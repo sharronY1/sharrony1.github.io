@@ -27,22 +27,6 @@
             </div>
     
             <div class="mt-2" style="font-size: 0.95rem; color: #555; line-height: 1.6;">{{ item.abstract }}</div>
-            
-            {% if item.links %}
-            <div class="mt-2" style="font-size: 0.85rem;">
-                {% for link in item.links %}
-                {% if link[0] == "Paper" %}
-                <a target="_blank" href="{{ link[1] }}" style="color: #0066cc; text-decoration: none; margin-right: 12px;">
-                    <i class="fas fa-file-pdf"></i> Paper
-                </a>
-                {% elsif link[0] == "Code" %}
-                <a target="_blank" href="{{ link[1] }}" style="color: #0066cc; text-decoration: none; margin-right: 12px;">
-                    <i class="fab fa-github"></i> Code
-                </a>
-                {% endif %}
-                {% endfor %}
-            </div>
-            {% endif %}
 
         </div>
     </div>
