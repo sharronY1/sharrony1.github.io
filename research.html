@@ -12,7 +12,7 @@ body_attr: >-
     <div class="col-12">
         {% for year in pubs_by_year %}
         {% assign num_papers = year.items | size %}
-        <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+        <h3 class="pt-4 mb-3" id="year-{{ year.name }}" style="font-size: 1.5rem; font-weight: 500; color: #666;">{{ year.name }}</h3>
         <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
             {% for item in year.items %}
                 {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let activeYear = null;
         
         // Find all year headings
-        const yearHeadings = document.querySelectorAll('h2[id^="year-"]');
+        const yearHeadings = document.querySelectorAll('h3[id^="year-"]');
         yearHeadings.forEach(heading => {
             if (heading.offsetTop <= scrollPos) {
                 activeYear = heading.id.replace('year-', '');

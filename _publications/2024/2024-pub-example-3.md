@@ -1,5 +1,5 @@
 ---
-title:          "ComboBench: Can LLMs Manipulate Physical Devices to Play VR Games?"
+title:          "<a href=\"https://arxiv.org/abs/2510.24706\" target=\"_blank\">ComboBench: Can LLMs Manipulate Physical Devices to Play VR Games?</a> <span style=\"font-size: 1.0 rem; color: #d9534f; font-weight: 600;\">[CVPR Under Review]</span>"
 date_range: Apr. 2024 – Aug. 2024
 selected:       false
 pub:            false
@@ -24,7 +24,7 @@ authors:
   - Prof. Michael R. Lyu 
 supervisor_website: https://www.cse.cuhk.edu.hk/lyu/
 links:
-  Paper: https://www.biorxiv.org
+  Paper: https://arxiv.org/abs/2510.24706
   Code: https://github.com
   Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
